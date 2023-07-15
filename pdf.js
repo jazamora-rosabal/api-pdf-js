@@ -8,7 +8,7 @@ async function pageCount(base_64_file) {
 async function addPage(base_64_file) {
   const readPdf = await PDFDocument.load(base_64_file);
   count = readPdf.getPageCount();
-  const pdfBytes = null;
+  let pdfBytes = null;
   if (count % 2) {
     const timesRomanFont = await readPdf.embedFont(StandardFonts.TimesRoman)
     const page = readPdf.addPage(PageSizes.Letter)
