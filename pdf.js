@@ -1,4 +1,4 @@
-import { PDFDocument } from 'pdf-lib';
+const { PDFDocument } = require('pdf-lib');
 
 async function pageCount(base_64_file) {
   const readPdf = await PDFDocument.load(base_64_file);
