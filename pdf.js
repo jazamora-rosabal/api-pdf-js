@@ -32,5 +32,5 @@ async function addPage(base_64_file) {
 }
 
 module.exports = {
-  pageCount
+  pageCount, addPage
 }
