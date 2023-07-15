@@ -1,0 +1,13 @@
+{
+  "name": "api-pdf-js",
+  "version": "1.0.0",
+  "description": "Modulos de JavaScritp para trabajar con Documentos PDF desde Elixir",
+  "main": "pdf.js",
+  "repository": "https://github.com/jazamora-rosabal/api-pdf-js.git",
+  "author": "julio.zamora@dox.cl",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}
